@@ -11,7 +11,7 @@ import json, os, re, sys, time, uuid, urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 CFG = {
     "ntfy_topic": os.environ.get("NTFY_TOPIC", "ZMIEN-NA-SWOJ-DLUGI-LOSOWY-TEMAT"),
-    "user_ref": "mbuganiuk",          # lekarz: Buganiuk Michał
+    "user_ref": "pbaranski",          # lekarz: Buganiuk Michał
     "venue_id": "1",                  # 1 = DCG Powstańców, 43 = DCG Krynicka
     "service_id": "52558",            # Konsultacja Położnicza – Kolejna NFZ
     "renotify_min": 30,               # ile minut przerwy między kolejnymi alarmami, gdy termin nadal jest
